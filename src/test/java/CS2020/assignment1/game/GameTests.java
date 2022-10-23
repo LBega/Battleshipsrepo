@@ -9,7 +9,7 @@ import CS2020.assignment1.game.AbstractGameGrid;
 import CS2020.assignment1.game.BattleShip;
 //import CS2020.assignment1.game.Game;
 //import CS2020.assignment1.game.GameControls;
-//import CS2020.assignment1.game.GameGrid;
+import CS2020.assignment1.game.GameGrid;
 //import CS2020.assignment1.game.OpponentGameGrid;
 //import CS2020.assignment1.game.PlayerGameGrid;
 
@@ -144,7 +144,7 @@ public class GameTests {
 	    }	
 		
 	}
-	/*
+	
 	@Test
 	public void t2_1() {
 	       
@@ -197,7 +197,7 @@ public class GameTests {
 	    }	
 		
 	}
-	
+	/*
 	@Test
 	public void t2_3() {
 	       
@@ -206,7 +206,7 @@ public class GameTests {
 		    AbstractGameGrid gameGrid = new GameGrid (1000,1000,1);
 		    
 		    int shipLength ;
-		    
+		     
 		    GameGrid  gameGrid2 = new GameGrid (1000,1000,3);
 		    
 		    shipLength = 0;
