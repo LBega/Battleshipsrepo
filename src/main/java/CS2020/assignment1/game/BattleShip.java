@@ -13,7 +13,7 @@ public class BattleShip extends AbstractBattleShip{
                         attackHit = true;
             }
         }
-    }
+    } 
     return attackHit;
     }	
 	
