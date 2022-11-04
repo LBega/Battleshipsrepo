@@ -2,8 +2,8 @@ package CS2020.assignment1.game;
 public class OpponentGameGrid extends GameGrid{
     public void printGrid(){
         System.out.println("Opponent's grid");
-        for(int horizontalloop = 0; horizontalloop < gameGrid.length; horizontalloop++){
-            for(int verticalloop = 0; verticalloop < gameGrid.length; verticalloop++){
+        for(int verticalloop = 0; verticalloop < gameGrid.length; verticalloop++){
+            for(int horizontalloop = 0; horizontalloop < gameGrid.length; horizontalloop++){
                 if(gameGrid[horizontalloop][verticalloop] == "*"){
                     System.out.print(".");
                 }
